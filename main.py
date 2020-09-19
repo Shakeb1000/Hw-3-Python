@@ -9,4 +9,5 @@ def run():
   mynum=digit_sum(n)
   print(f"sum of digits of {n} is {mynum}.")
 
-run()
+if __name__ == "__main__":
+  run()
